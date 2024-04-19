@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+article {
+    background: rgb(230, 220, 220);
+    border: 2px solid rgb(207, 184, 184);
+    box-shadow: 15px 8px 17px rgba(2, 2, 15, 0.822);
+
+    padding: 8px;
+    margin: 8px;
+
+    min-width: 40%;
+}
+
+.avatar {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+article section {
+    font: 18px "Verdana";
+
+    padding-bottom: 35px;
+}
+
+article h1 {
+    font-size: 40px;
+    margin: 5px;
+}
